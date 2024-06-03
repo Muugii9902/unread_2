@@ -298,11 +298,10 @@ h1 {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  backdrop-filter: blur(50px);
 }
 .grid_content {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 300px);
   grid-template-rows: 200px 50px;
   gap: 20px;
   margin-top: 50px;
@@ -310,7 +309,7 @@ h1 {
 }
 .item_box1 {
   grid-row: 1 / 2 span;
-  grid-column: 1 /2 span;
+  grid-column: 1 / 2 span;
   width: 100%;
   height: 100%;
   background-image: url("https://unread.today/files/44/fb22ab394a1b1ed66b2cf9839bdf4f2a.jpg");
@@ -363,7 +362,7 @@ h1 {
 }
 .grid_content2 {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 300px);
   grid-template-rows: 200px 50px;
   gap: 20px;
   margin-top: 50px;
@@ -371,6 +370,6 @@ h1 {
 }
 .item_content {
   /* background-color: #0078f6; */
-  backdrop-filter: blur(40px);
-  padding: 20px;
+  /* backdrop-filter: blur(40px); */
+  /* padding: 20px; */
 }
